@@ -1,0 +1,1 @@
+function trocarVideo(){var e,o=document.getElementById("bg-video");o&&(e=window.innerWidth<=768?"/public/bg-section-1-mobile.mp4":"/public/bg-section-1.mp4",o.src.includes(e)||(o.src=e,o.load(),o.play()))}window.addEventListener("DOMContentLoaded",trocarVideo),window.addEventListener("resize",trocarVideo);export default trocarVideo;
